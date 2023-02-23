@@ -1,0 +1,352 @@
+* {
+    box-sizing: border-box;
+    font-family: "xolonium";
+}
+
+
+body {
+    background-color: #f3eef2;
+}
+
+h2, p {
+    font-size: 22px;
+    text-align: center;
+}
+
+.name {
+    padding-top: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 75px;   
+}
+
+.name2 {
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 211, 211);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 21px;
+    color: #3d3d3d;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+#tovar {
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    color: #3d3d3d;
+    font-size: 25px;
+    width: auto;
+}
+
+#tovarback {
+    float: center;
+    text-align: center;
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 15px;
+    width: auto;
+}
+
+#tovarback:hover {
+    color: rgb(54, 217, 46);
+}
+
+a {
+    text-decoration: none;
+}
+
+#tovar1 {
+    float: left;
+    text-align: justify;
+    text-decoration: none;
+    color: #3d3d3d;
+    font-size: 22px;
+    padding-left: 20px;
+    font-family:'Times New Roman', Times, serif;
+    text-indent: 40px;
+}
+
+#tovar2 {
+    
+    float: right;
+    text-align: justify;
+    text-decoration: none;
+    color: #3d3d3d;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 40px;
+}
+
+#tovar15 {
+    float: left;
+    text-align: justify;
+    text-decoration: none;
+    margin-top: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    color: #3d3d3d;
+    font-size: 20px;
+    width: auto;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 40px;
+}
+
+#tovar3{
+    text-align: center;
+    color: #3d3d3d;
+    font-size: 25px;
+    font-family: "xolonium";
+    margin-bottom: 0;
+}
+
+#tovar:hover {
+    color: palevioletred;
+}
+
+.imgwear {
+    
+    float: right;
+    padding-right: 20px;
+}
+
+.imgwear2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: left;
+        padding-left: 20px;
+        padding-top: 20px;
+}
+
+.imgwear15 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+        padding-top: 30px;
+        padding-left: 73px;
+        float: center;
+}
+
+.imgmain {
+    border-radius: 85px;  
+    float: left;
+    padding-left: 0; 
+}
+
+#logo {
+    padding-right: 0;
+    float: right;
+}
+
+.column {
+    float: left;
+    width: 32.3%;
+    margin: 5px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+@media screen and (max-width:1300px) {
+    #tovar {
+        text-align: center;
+        width: 70%;
+    }
+    #tovar {
+        padding-left: 0 px;
+        width: 55%;
+    }
+    #tovar2 {
+        padding-top: 0;
+        padding-right: 15px;
+        width: 55%;
+    }
+   
+}
+
+@media screen and (max-width:1205px) {
+    #tovar{
+        width:40%;
+        padding-right: 20px;
+    }
+
+    #tovar2 {
+        padding-top: 0;
+        padding-right: 25px;
+        padding-left: 10px;
+         width: 45%;
+    }
+
+}
+
+@media screen and (max-width:1190px) {
+    .column {
+        width: 31.8%;
+    }
+
+    #logo {
+        padding-right: 0;
+    }
+
+    #tovar {
+        width: 40%;
+        text-align: center;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width:980px) {
+    #tovar2 {
+                padding-top: 0;
+                padding-right: 25px;
+                padding-left: 10px;
+                width: 95%;
+            
+    }
+}
+
+@media screen and (max-width:865px) {
+    #tovar {
+        width: 80%;
+        padding-right: 0px;
+    }
+
+          #tovar2 {
+              padding-top: 0;
+              padding-right: 25px;
+              padding-left: 10px;
+              width: 95%;
+          }
+
+}
+
+@media screen and (max-width:686px) {
+    .column {
+        width: 30.3%;
+    }
+
+    #logo {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 607px) {
+    #tovar {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width:1400px) {
+    #tovar1 {
+        text-align: justify;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1205px) {
+
+    #tovar1 {
+        text-align: justify;
+        width: 65%;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width:1190px) {
+    #tovar1 {
+        width: 50%;
+        text-align: justify;
+        
+    }
+}
+
+@media screen and (max-width:851px) {
+    #tovar1 {
+        width: 50%;
+        text-align: justify;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width:813px) {
+    #tovar1 {
+        width: 40%;
+        text-align: justify;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 682px) {
+
+    #tovar1 {
+        width: 100%;
+        padding: 0;
+        text-align: justify;
+    }
+}
+
+@font-face {
+    font-family: "GoodTimes";
+    src: url("../css/fonts/good\ times\ rg.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "xolonium";
+    src: url(../css/fonts/Xolonium-Regular.otf);
+}
+
+
+
